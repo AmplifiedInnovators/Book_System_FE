@@ -7,10 +7,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Book List</title>
 
-    <link rel="stylesheet" href="styling/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.10.0/font/bootstrap-icons.min.css">
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
-
+    <script src="js/Books.js"></script>
 </head>
 
 <body>
@@ -19,7 +19,12 @@
    <!-- <h1 style="text-align: center;">Book List</h1> -->
     
    <button class="addbtn">Add A Book</button>
+
+
+   <div class="input-container">
+    <i class="bi bi-search"  style="font-size: 20px;color:black;"></i>
     <input class="searchbar" type="text" placeholder="Search...">
+   </div>
 
     <!-- <div class="list-container"> -->
     
@@ -45,7 +50,7 @@
                 <td>George Orwell</td>
                 <td>No</td>
                 <td><button class="editbtn">Edit</button></td>
-                <td><button class="deletebtn">Delete</button></td>
+                <td><button class="deletebtn" onclick="DeleteBook()">Delete</button></td>
             </tr>
             <tr>
                 <td>1</td>
@@ -54,7 +59,7 @@
                 <td>George Orwell</td>
                 <td>No</td>
                 <td><button class="editbtn">Edit</button></td>
-                <td><button class="deletebtn">Delete</button></td>
+                <td><button class="deletebtn" onclick="DeleteBook()">Delete</button></td>
             </tr>
             <tr>
                 <td>1</td>
@@ -63,7 +68,7 @@
                 <td>George Orwell</td>
                 <td>No</td>
                 <td><button class="editbtn">Edit</button></td>
-                <td><button class="deletebtn">Delete</button></td>
+                <td><button class="deletebtn" onclick="DeleteBook()">Delete</button></td>
             </tr>
             <tr>
                 <td>1</td>
